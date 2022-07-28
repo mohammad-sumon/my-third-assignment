@@ -1,6 +1,7 @@
 .custom-btn{
   background: linear-gradient(to bottom, rgb(82, 214, 247), rgb(4, 88, 109));
   border: none;
+  font-weight: 600;
 }
 .custom-bg{
   filter: brightness(60%);
