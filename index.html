@@ -259,11 +259,27 @@
           </div>
           <div class="col">
             <button
-              class="btn bg-white py-2 px-4 fs-3 text-info my-5"
-              id="myModal"
+              type="button"
+              class="btn bg-white py-2 px-4 fs-3 text-info my-5" data-bs-toggle="modal" data-bs-target="#myModal"
             >
               Register Now
             </button>
+            <!-- Modal -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-info">Modals are Awesome</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body text-dark">
+                    <p>Honestly this is the first time when i used modal. I am very much excited. All of my tiredness is gone when i finally made it.</p>
+                    <p>Yahoo...</p>
+                    <p>Thanks to visit my modal</p> 
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -451,5 +467,6 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
